@@ -19,9 +19,10 @@ namespace RodgieFritzBarnuevo
         public frmMain()
         {         
             InitializeComponent();
+            tbPassword.PasswordChar = '*';
         }
         Database db = new Database();
-
+        
         private void lvlItem_SelectedIndexChanged(object sender, EventArgs e)
         {
             
@@ -29,10 +30,33 @@ namespace RodgieFritzBarnuevo
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            clickLogin();
+            if (tbUsername.Text.Length > 0 && tbPassword.Text.Length > 0)
+            {
+                authLogin();
+            }
+            else
+            {
+                MessageBox.Show("Please Fill Up All Fields");
+            }
+            
         }
 
-       
+        public void authLogin() 
+        {
+            user u = new user();
+            u.username = tbUsername.Text;
+            u.password = tbPassword.Text;
+            if (db.checkAuth(u) == true)
+            {
+                MessageBox.Show("success");
+            }
+            else
+            {
+                MessageBox.Show("failed");
+            }
+            
+        }
+    
         private void frmMain_Load(object sender, EventArgs e)
         {
            
