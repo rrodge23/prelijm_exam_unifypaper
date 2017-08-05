@@ -37,3 +37,13 @@ C:\Users\ITE-COMPLAB\Desktop\Unify Paper\RodgieFritzBarnuevo\bin\Debug\accessdb.
 C:\Users\ITE-COMPLAB\Desktop\Unify Paper\RodgieFritzBarnuevo\bin\Debug\RodgieFritzBarnuevo.exe
 C:\Users\ITE-COMPLAB\Desktop\Unify Paper\RodgieFritzBarnuevo\bin\Debug\RodgieFritzBarnuevo.pdb
 C:\Users\ITE-COMPLAB\Desktop\Unify Paper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.pdb
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\bin\Debug\RodgieFritzBarnuevo.exe.config
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.exe
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.pdb
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\bin\Debug\accessdb.accdb
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\bin\Debug\RodgieFritzBarnuevo.exe
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\bin\Debug\RodgieFritzBarnuevo.pdb
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.csprojResolveAssemblyReference.cache
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.frmMain.resources
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.Properties.Resources.resources
+C:\Users\Didoy\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.csproj.GenerateResource.Cache
