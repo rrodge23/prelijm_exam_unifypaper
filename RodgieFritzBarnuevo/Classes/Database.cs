@@ -13,6 +13,7 @@ namespace RodgieFritzBarnuevo.Classes
         OleDbCommand cmd = null;
         OleDbConnection conn = null;
         OleDbDataReader dr = null;
+        private string sql = null;
         public Database ()
 	    {
             conn = new OleDbConnection();
@@ -20,9 +21,34 @@ namespace RodgieFritzBarnuevo.Classes
 	    }
 
         public bool checkAuth(user u)
-        { 
-            
+        {
+            try
+            {
+                conn.Open();
+                sql = "SELECT * FROM accessdb WHERE username LIKE @username AND password LIKE @password";
+                cmd = new OleDbCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@username", u.username);
+                cmd.Parameters.AddWithValue("@password", u.password);
+                dr = cmd.ExecuteReader();
+                if (dr.HasRows)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("error" + ex);
+            }
+            finally
+            {
+                dr.Close();
+                conn.Close();
+            }
+            return false;
         }
-
     }
 }
