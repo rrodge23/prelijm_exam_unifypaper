@@ -37,3 +37,6 @@ C:\Users\ITE-COMPLAB\Desktop\Unify Paper\RodgieFritzBarnuevo\bin\Debug\accessdb.
 C:\Users\ITE-COMPLAB\Desktop\Unify Paper\RodgieFritzBarnuevo\bin\Debug\RodgieFritzBarnuevo.exe
 C:\Users\ITE-COMPLAB\Desktop\Unify Paper\RodgieFritzBarnuevo\bin\Debug\RodgieFritzBarnuevo.pdb
 C:\Users\ITE-COMPLAB\Desktop\Unify Paper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.pdb
+C:\Users\Tech-23\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\bin\Debug\RodgieFritzBarnuevo.exe.config
+C:\Users\Tech-23\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.exe
+C:\Users\Tech-23\Desktop\prelijm_exam_unifypaper\RodgieFritzBarnuevo\obj\Debug\RodgieFritzBarnuevo.pdb
