@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUsers));
             this.lvUserList = new System.Windows.Forms.ListView();
             this.tbSearchUser = new Bunifu.Framework.UI.BunifuTextbox();
+            this.userCalendar = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // lvUserList
@@ -56,11 +57,19 @@
             this.tbSearchUser.TabIndex = 1;
             this.tbSearchUser.text = "Search";
             // 
+            // userCalendar
+            // 
+            this.userCalendar.Location = new System.Drawing.Point(26, 28);
+            this.userCalendar.Name = "userCalendar";
+            this.userCalendar.Size = new System.Drawing.Size(200, 20);
+            this.userCalendar.TabIndex = 2;
+            // 
             // frmUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1047, 486);
+            this.Controls.Add(this.userCalendar);
             this.Controls.Add(this.tbSearchUser);
             this.Controls.Add(this.lvUserList);
             this.Name = "frmUsers";
@@ -76,5 +85,6 @@
 
         private System.Windows.Forms.ListView lvUserList;
         private Bunifu.Framework.UI.BunifuTextbox tbSearchUser;
+        private System.Windows.Forms.DateTimePicker userCalendar;
     }
 }
