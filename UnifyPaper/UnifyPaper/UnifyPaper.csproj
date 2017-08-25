@@ -48,8 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\database\database.cs" />
+    <Compile Include="Classes\model\database.cs" />
     <Compile Include="Classes\entities\users.cs" />
+    <Compile Include="Classes\session\userSession.cs" />
     <Compile Include="form\auth\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="form\pages\frmUsers.resx">
       <DependentUpon>frmUsers.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

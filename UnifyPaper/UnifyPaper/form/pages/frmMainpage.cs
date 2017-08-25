@@ -37,5 +37,10 @@ namespace UnifyPaper.form.pages
             form.pages.frmUsers fusr = new form.pages.frmUsers();
             fusr.ShowDialog();
         }
+
+        private void frmMainpage_Load(object sender, EventArgs e)
+        {
+            lb.Text = Classes.session.userSession.username.ToString();
+        }
     }
 }

@@ -15,23 +15,52 @@ namespace UnifyPaper.form.pages
         public frmUsers()
         {
             InitializeComponent();
+         
         }
 
         private void lvUserList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ListViewItem lv = new ListViewItem();
+         
 
 
         }
 
         private void frmUsers_Load(object sender, EventArgs e)
         {
-            Classes.entities.users u = new Classes.entities.users();
-            lvUserList.Columns.Add("UID");
-            lvUserList.Columns.Add("Username");
-            lvUserList.Columns.Add("Role");
-            lvUserList.Columns.Add("Date Created");
+            loadSettings();
+        }
 
+        private void loadSettings()
+        {
+
+            lvUserList.Columns.Add("UID",250);
+            lvUserList.Columns.Add("Username",250);
+            lvUserList.Columns.Add("Role",250);
+            ListViewItem lvUsers = new ListViewItem();
+
+            lvUsers.Text = "1";
+            lvUsers.SubItems.Add("asdf");
+            lvUsers.SubItems.Add("asdf");
+            
+            lvUserList.Items.Add(lvUsers);
+            buttonInit();
+        }
+
+        private Button buttonInit()
+        {
+            return new Button
+            {
+                FlatStyle = System.Windows.Forms.FlatStyle.System,
+                Location = new System.Drawing.Point(935, 600),
+                Name = "button",
+                Size = new System.Drawing.Size(168, 24),
+                TabIndex = 5,
+                Text = "button"
+            };
+        }
+        private void tpUserList_Click(object sender, EventArgs e)
+        {
+         
         }
     }
 }

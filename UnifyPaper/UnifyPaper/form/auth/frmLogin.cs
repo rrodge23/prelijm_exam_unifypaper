@@ -45,6 +45,8 @@ namespace UnifyPaper
                 u.password = tbPassword.text.ToString().Trim();
                 if (db.checkLogin(u))
                 {
+                    Classes.session.userSession.username = tbUsername.text.ToString();
+                    Classes.session.userSession.password = tbPassword.text.ToString();
                     form.pages.frmMainpage frm = new form.pages.frmMainpage();
                     this.Hide();
                     frm.ShowDialog();
