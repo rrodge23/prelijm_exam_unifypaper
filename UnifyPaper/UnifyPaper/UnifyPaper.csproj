@@ -68,6 +68,12 @@
     <Compile Include="form\pages\frmUsers.Designer.cs">
       <DependentUpon>frmUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="form\pages\frmUserUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\pages\frmUserUpdate.Designer.cs">
+      <DependentUpon>frmUserUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="form\auth\frmLogin.resx">
