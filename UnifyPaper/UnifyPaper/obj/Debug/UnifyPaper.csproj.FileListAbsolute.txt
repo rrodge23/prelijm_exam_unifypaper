@@ -1,0 +1,12 @@
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.exe.config
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.exe
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.pdb
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\bin\Debug\Bunifu_UI_v1.52.dll
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.csprojResolveAssemblyReference.cache
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.Properties.Resources.resources
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.csproj.GenerateResource.Cache
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.exe
+c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.pdb
+C:\Users\a.grace_barnuevo\Documents\Visual Studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.frmMainpage.resources
+C:\Users\a.grace_barnuevo\Documents\Visual Studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmMainpage.resources
+C:\Users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmUsers.resources
