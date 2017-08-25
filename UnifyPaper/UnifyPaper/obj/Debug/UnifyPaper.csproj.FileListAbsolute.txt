@@ -10,3 +10,6 @@ c:\users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\Unify
 C:\Users\a.grace_barnuevo\Documents\Visual Studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.frmMainpage.resources
 C:\Users\a.grace_barnuevo\Documents\Visual Studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmMainpage.resources
 C:\Users\a.grace_barnuevo\documents\visual studio 2012\Projects\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmUsers.resources
+C:\Users\a.grace_barnuevo\Desktop\_unifypaper\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.exe.config
+C:\Users\a.grace_barnuevo\Desktop\_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.exe
+C:\Users\a.grace_barnuevo\Desktop\_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.pdb
