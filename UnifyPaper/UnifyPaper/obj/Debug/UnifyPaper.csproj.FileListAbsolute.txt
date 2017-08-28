@@ -21,3 +21,14 @@ C:\Users\a.grace_barnuevo\Desktop\_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\Un
 C:\Users\a.grace_barnuevo\Desktop\_unifypaper\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.exe
 C:\Users\a.grace_barnuevo\Desktop\_unifypaper\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.pdb
 C:\Users\a.grace_barnuevo\Desktop\_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmUsers.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.exe.config
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.exe
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\bin\Debug\UnifyPaper.pdb
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.frmMainpage.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmMainpage.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmUsers.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.Properties.Resources.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.exe
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.pdb
