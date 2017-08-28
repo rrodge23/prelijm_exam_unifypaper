@@ -42,20 +42,5 @@ namespace UnifyPaper.form.pages
         {
             lb.Text = Classes.session.userSession.username.ToString();
         }
-
-        private void selectPrinterToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuGradientPanel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
