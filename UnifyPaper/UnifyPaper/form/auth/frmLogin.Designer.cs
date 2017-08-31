@@ -52,9 +52,10 @@
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.White;
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Red;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1065, 28);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1420, 34);
             this.bunifuGradientPanel1.TabIndex = 0;
             // 
             // btnClose
@@ -63,9 +64,10 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageActive = null;
             this.btnClose.InitialImage = ((System.Drawing.Image)(resources.GetObject("btnClose.InitialImage")));
-            this.btnClose.Location = new System.Drawing.Point(1031, 0);
+            this.btnClose.Location = new System.Drawing.Point(1375, 0);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(34, 28);
+            this.btnClose.Size = new System.Drawing.Size(45, 34);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnClose.TabIndex = 1;
             this.btnClose.TabStop = false;
@@ -79,9 +81,10 @@
             this.tbUsername.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tbUsername.ForeColor = System.Drawing.Color.SeaShell;
             this.tbUsername.Icon = ((System.Drawing.Image)(resources.GetObject("tbUsername.Icon")));
-            this.tbUsername.Location = new System.Drawing.Point(774, 97);
+            this.tbUsername.Location = new System.Drawing.Point(1032, 119);
+            this.tbUsername.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(250, 42);
+            this.tbUsername.Size = new System.Drawing.Size(333, 52);
             this.tbUsername.TabIndex = 1;
             this.tbUsername.text = "";
             this.tbUsername.OnTextChange += new System.EventHandler(this.tbUsername_OnTextChange);
@@ -93,9 +96,10 @@
             this.tbPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tbPassword.ForeColor = System.Drawing.Color.SeaShell;
             this.tbPassword.Icon = ((System.Drawing.Image)(resources.GetObject("tbPassword.Icon")));
-            this.tbPassword.Location = new System.Drawing.Point(774, 158);
+            this.tbPassword.Location = new System.Drawing.Point(1032, 194);
+            this.tbPassword.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(250, 42);
+            this.tbPassword.Size = new System.Drawing.Size(333, 52);
             this.tbPassword.TabIndex = 2;
             this.tbPassword.text = "";
             // 
@@ -120,14 +124,14 @@
             this.btnLogin.IconVisible = true;
             this.btnLogin.IconZoom = 90D;
             this.btnLogin.IsTab = false;
-            this.btnLogin.Location = new System.Drawing.Point(1290, 381);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(5);
+            this.btnLogin.Location = new System.Drawing.Point(1720, 469);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.btnLogin.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.btnLogin.OnHoverTextColor = System.Drawing.Color.White;
             this.btnLogin.selected = false;
-            this.btnLogin.Size = new System.Drawing.Size(417, 78);
+            this.btnLogin.Size = new System.Drawing.Size(556, 96);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "bunifuFlatButton1";
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -155,14 +159,15 @@
             this.btnLog.IconVisible = true;
             this.btnLog.IconZoom = 50D;
             this.btnLog.IsTab = false;
-            this.btnLog.Location = new System.Drawing.Point(774, 234);
+            this.btnLog.Location = new System.Drawing.Point(1032, 288);
+            this.btnLog.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnLog.Name = "btnLog";
             this.btnLog.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.btnLog.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.btnLog.OnHoverTextColor = System.Drawing.Color.White;
             this.btnLog.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnLog.selected = false;
-            this.btnLog.Size = new System.Drawing.Size(250, 42);
+            this.btnLog.Size = new System.Drawing.Size(333, 52);
             this.btnLog.TabIndex = 4;
             this.btnLog.Text = "Login";
             this.btnLog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -177,15 +182,18 @@
             // 
             // frmMainpage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1065, 367);
+            this.BackgroundImage = global::UnifyPaper.Properties.Resources.UP1;
+            this.ClientSize = new System.Drawing.Size(1420, 452);
             this.Controls.Add(this.btnLog);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.tbUsername);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmMainpage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmLogin_Load);

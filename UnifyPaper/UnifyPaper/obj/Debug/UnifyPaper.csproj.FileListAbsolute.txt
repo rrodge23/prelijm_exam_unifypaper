@@ -32,3 +32,10 @@ C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\Un
 C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.csproj.GenerateResource.Cache
 C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.exe
 C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.pdb
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmCustomer.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmDelete.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmReCall.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmTransaction.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmLookup.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmUserUpdate.resources
+C:\Users\User\Desktop\prelijm_exam_unifypaper\UnifyPaper\UnifyPaper\obj\Debug\UnifyPaper.form.pages.frmUserManagement.resources

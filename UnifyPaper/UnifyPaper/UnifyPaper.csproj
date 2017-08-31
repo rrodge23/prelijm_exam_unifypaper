@@ -57,11 +57,47 @@
     <Compile Include="form\auth\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="form\pages\frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\pages\frmCustomer.Designer.cs">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\pages\frmDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\pages\frmDelete.Designer.cs">
+      <DependentUpon>frmDelete.cs</DependentUpon>
+    </Compile>
     <Compile Include="form\pages\frmMainpage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="form\pages\frmMainpage.Designer.cs">
       <DependentUpon>frmMainpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\pages\frmLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\pages\frmLookup.Designer.cs">
+      <DependentUpon>frmLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\pages\frmReCall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\pages\frmReCall.Designer.cs">
+      <DependentUpon>frmReCall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\pages\frmTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\pages\frmTransaction.Designer.cs">
+      <DependentUpon>frmTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\pages\frmUserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\pages\frmUserManagement.Designer.cs">
+      <DependentUpon>frmUserManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="form\pages\frmUsers.cs">
       <SubType>Form</SubType>
@@ -80,12 +116,33 @@
     <EmbeddedResource Include="form\auth\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="form\pages\frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\pages\frmDelete.resx">
+      <DependentUpon>frmDelete.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form\pages\frmMainpage.resx">
       <DependentUpon>frmMainpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\pages\frmLookup.resx">
+      <DependentUpon>frmLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\pages\frmReCall.resx">
+      <DependentUpon>frmReCall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\pages\frmTransaction.resx">
+      <DependentUpon>frmTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\pages\frmUserManagement.resx">
+      <DependentUpon>frmUserManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form\pages\frmUsers.resx">
       <DependentUpon>frmUsers.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\pages\frmUserUpdate.resx">
+      <DependentUpon>frmUserUpdate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +152,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -109,7 +167,18 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UP1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patak.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

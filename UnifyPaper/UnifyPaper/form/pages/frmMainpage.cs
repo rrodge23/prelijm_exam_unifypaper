@@ -42,5 +42,35 @@ namespace UnifyPaper.form.pages
         {
             lb.Text = Classes.session.userSession.username.ToString();
         }
+
+        private void btnTransaction_Click(object sender, EventArgs e)
+        {
+            frmTransaction ft = new frmTransaction();
+            ft.ShowDialog();
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            frmCustomer fc = new frmCustomer();
+            fc.ShowDialog();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            frmDelete fd = new frmDelete();
+            fd.ShowDialog();
+        }
+
+        private void btnReCall_Click(object sender, EventArgs e)
+        {
+            frmReCall fr = new frmReCall();
+            fr.ShowDialog();
+        }
+
+        private void btnLookUp_Click(object sender, EventArgs e)
+        {
+            frmLookup fl = new frmLookup();
+            fl.ShowDialog();
+        }
     }
 }
