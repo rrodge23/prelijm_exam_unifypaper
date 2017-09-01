@@ -22,25 +22,32 @@ namespace UnifyPaper.Classes.database
             conn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=unifypaper.accdb";
         }
 
-        public bool checkLogin(entities.users data) 
+        public Classes.entities.users checkLogin(entities.users data) 
         {
-            bool validate = false;
+            Classes.entities.users u = new Classes.entities.users();
+            
             try
             {
+                
+
                 conn.Open();
                 string sql = "SELECT * FROM usertbl WHERE username LIKE @username AND PASSWORD LIKE @password";
                 cmd = new OleDbCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@username", data.username);
                 cmd.Parameters.AddWithValue("@password", data.password);
                 dr = cmd.ExecuteReader();
-                dr.Read();
+
                 if (dr.HasRows)
                 {
-                    validate = true;
+                    dr.Read();
+                    u.UID = dr["id"].ToString();
+                    u.username = dr["username"].ToString();
+                    u.password = dr["password"].ToString();
+                    u.user_level = dr["user_level"].ToString();
                 }
                 else
                 {
-                    validate = false;
+                    u = null;
                 }
             }
             catch (Exception ex)
@@ -52,7 +59,7 @@ namespace UnifyPaper.Classes.database
                 dr.Close();
                 conn.Close();
             }
-            return validate;
+            return u;
         }
     }
 }

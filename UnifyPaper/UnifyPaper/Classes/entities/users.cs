@@ -12,7 +12,7 @@ namespace UnifyPaper.Classes.entities
         {
 
         }
-
+        public string UID { get; set; }
         public string username { get; set; }
         public string password { get; set; }
         public string user_level { get; set; }

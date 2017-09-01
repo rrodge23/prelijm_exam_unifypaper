@@ -34,13 +34,37 @@ namespace UnifyPaper.form.pages
 
         private void manageUsersToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            form.pages.frmUsers fusr = new form.pages.frmUsers();
-            fusr.ShowDialog();
+         //   MessageBox.Show(Classes.session.userSession.userlevel.ToString());
+            if (Classes.session.userSession.userlevel.ToString() == "1")
+            {
+                form.pages.frmUsers fusr = new form.pages.frmUsers();
+                fusr.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Error, Unauthorize User.");
+            }
+
         }
 
         private void frmMainpage_Load(object sender, EventArgs e)
         {
-            lb.Text = Classes.session.userSession.username.ToString();
+           
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

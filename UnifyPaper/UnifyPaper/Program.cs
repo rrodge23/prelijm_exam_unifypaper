@@ -12,11 +12,24 @@ namespace UnifyPaper
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
+  
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMainpage());
+
+            try
+            {
+                frmMainpage fmp = new frmMainpage();
+                if (fmp != null)
+                {
+                    Application.Run(fmp);
+                }
+            }catch(Exception e)
+            {
+                MessageBox.Show("Error: " + e);
+            }
+            
         }
     }
 }

@@ -34,82 +34,69 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.authrozationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.manageUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lb = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.securityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.preferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.creditCardsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.expressPlusInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectReceiptPrinterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectReportPrinterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reprintLastReceiptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.printViewPastReceiptsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capturedSignaturesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reprintLastChargeSlipToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printAGiftReceiptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveCurrentTransactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openRemoteTransactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeRegistersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteSelectedRowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteClearCurrentTransactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openCashDrawerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salesReturnTransactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cashPaidOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.trainingModeOnOffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.goToStore2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.startBluetoothListenerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backupDatabasesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.drawerTotalsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transactionNumberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.securityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lockRegisterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.identifyCashierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.switchCashiersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.managerOverRideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showCurrentCashierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.customerDisplayOnScreenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.freeCardProcessingSoftwareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.changeCardVirtualTerminalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.authrozationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usersToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.licenseAgreementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unifyPaperWebSiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUnifyPaperToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lb = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnCustomer = new System.Windows.Forms.Button();
-            this.lbUnifyPaper = new System.Windows.Forms.Label();
-            this.btnTransaction = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnReCall = new System.Windows.Forms.Button();
-            this.btnProduct = new System.Windows.Forms.Button();
-            this.btnTender = new System.Windows.Forms.Button();
-            this.btnLookUp = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.btnScale = new System.Windows.Forms.Button();
-            this.lbEnterScan = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnLookUp = new System.Windows.Forms.Button();
+            this.btnTender = new System.Windows.Forms.Button();
+            this.btnProduct = new System.Windows.Forms.Button();
+            this.btnReCall = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnTransaction = new System.Windows.Forms.Button();
+            this.lbUnifyPaper = new System.Windows.Forms.Label();
+            this.btnCustomer = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lbTotal = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.lbNo = new System.Windows.Forms.Label();
-            this.lbProductCode = new System.Windows.Forms.Label();
-            this.lbDescription = new System.Windows.Forms.Label();
-            this.lbQuantity = new System.Windows.Forms.Label();
             this.lbPrice = new System.Windows.Forms.Label();
-            this.lbTotal = new System.Windows.Forms.Label();
+            this.lbQuantity = new System.Windows.Forms.Label();
+            this.lbDescription = new System.Windows.Forms.Label();
+            this.lbProductCode = new System.Windows.Forms.Label();
+            this.lbNo = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbEnterScan = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -125,10 +112,9 @@
             this.bunifuImageButton1.BackColor = System.Drawing.Color.SeaGreen;
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(1890, 0);
-            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(1418, 0);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(43, 32);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(32, 26);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton1.TabIndex = 1;
             this.bunifuImageButton1.TabStop = false;
@@ -140,19 +126,18 @@
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip2.Size = new System.Drawing.Size(1932, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(1034, 24);
             this.menuStrip2.TabIndex = 2;
             this.menuStrip2.Text = "menuStrip2";
+            this.menuStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 24);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1932, 32);
+            this.panel1.Size = new System.Drawing.Size(1034, 26);
             this.panel1.TabIndex = 0;
             // 
             // menuStrip1
@@ -164,15 +149,11 @@
             this.menu3ToolStripMenuItem,
             this.viewToolStripMenuItem,
             this.securityToolStripMenuItem,
-            this.preferencesToolStripMenuItem,
-            this.creditCardsToolStripMenuItem,
-            this.expressPlusInfoToolStripMenuItem,
             this.optionToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1932, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1034, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -185,14 +166,60 @@
             this.printViewPastReceiptsToolStripMenuItem,
             this.capturedSignaturesToolStripMenuItem,
             this.reprintLastChargeSlipToolStripMenuItem,
-            this.printAGiftReceiptToolStripMenuItem,
-            this.saveCurrentTransactionToolStripMenuItem,
-            this.openRemoteTransactionToolStripMenuItem,
             this.closeRegistersToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.menuToolStripMenuItem.Text = "File";
+            // 
+            // selectReceiptPrinterToolStripMenuItem
+            // 
+            this.selectReceiptPrinterToolStripMenuItem.Name = "selectReceiptPrinterToolStripMenuItem";
+            this.selectReceiptPrinterToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.selectReceiptPrinterToolStripMenuItem.Text = "Select Receipt Printer";
+            // 
+            // selectReportPrinterToolStripMenuItem
+            // 
+            this.selectReportPrinterToolStripMenuItem.Name = "selectReportPrinterToolStripMenuItem";
+            this.selectReportPrinterToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.selectReportPrinterToolStripMenuItem.Text = "Select Report Printer";
+            // 
+            // reprintLastReceiptToolStripMenuItem
+            // 
+            this.reprintLastReceiptToolStripMenuItem.Name = "reprintLastReceiptToolStripMenuItem";
+            this.reprintLastReceiptToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.reprintLastReceiptToolStripMenuItem.Text = "Reprint Last Receipt";
+            // 
+            // printViewPastReceiptsToolStripMenuItem
+            // 
+            this.printViewPastReceiptsToolStripMenuItem.Name = "printViewPastReceiptsToolStripMenuItem";
+            this.printViewPastReceiptsToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.printViewPastReceiptsToolStripMenuItem.Text = "Print/View Past Receipts";
+            // 
+            // capturedSignaturesToolStripMenuItem
+            // 
+            this.capturedSignaturesToolStripMenuItem.Name = "capturedSignaturesToolStripMenuItem";
+            this.capturedSignaturesToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.capturedSignaturesToolStripMenuItem.Text = "Captured Signatures";
+            // 
+            // reprintLastChargeSlipToolStripMenuItem
+            // 
+            this.reprintLastChargeSlipToolStripMenuItem.Name = "reprintLastChargeSlipToolStripMenuItem";
+            this.reprintLastChargeSlipToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.reprintLastChargeSlipToolStripMenuItem.Text = "Reprint Last Charge Slip";
+            // 
+            // closeRegistersToolStripMenuItem
+            // 
+            this.closeRegistersToolStripMenuItem.Name = "closeRegistersToolStripMenuItem";
+            this.closeRegistersToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.closeRegistersToolStripMenuItem.Text = "Close Register(s)";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // usersToolStripMenuItem
             // 
@@ -203,82 +230,95 @@
             this.deleteSelectedRowToolStripMenuItem,
             this.deleteClearCurrentTransactionToolStripMenuItem});
             this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            this.usersToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
+            this.usersToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.usersToolStripMenuItem.Text = "Edit";
             this.usersToolStripMenuItem.Click += new System.EventHandler(this.usersToolStripMenuItem_Click);
+            // 
+            // cutToolStripMenuItem
+            // 
+            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
+            this.cutToolStripMenuItem.Text = "Cut";
+            // 
+            // copyToolStripMenuItem
+            // 
+            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
+            this.copyToolStripMenuItem.Text = "Copy";
+            // 
+            // pasteToolStripMenuItem
+            // 
+            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
+            this.pasteToolStripMenuItem.Text = "Paste";
+            // 
+            // deleteSelectedRowToolStripMenuItem
+            // 
+            this.deleteSelectedRowToolStripMenuItem.Name = "deleteSelectedRowToolStripMenuItem";
+            this.deleteSelectedRowToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
+            this.deleteSelectedRowToolStripMenuItem.Text = "Delete Selected Row";
+            // 
+            // deleteClearCurrentTransactionToolStripMenuItem
+            // 
+            this.deleteClearCurrentTransactionToolStripMenuItem.Name = "deleteClearCurrentTransactionToolStripMenuItem";
+            this.deleteClearCurrentTransactionToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
+            this.deleteClearCurrentTransactionToolStripMenuItem.Text = "Delete/Clear Current Transaction";
             // 
             // menu3ToolStripMenuItem
             // 
             this.menu3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.openCashDrawerToolStripMenuItem,
             this.salesReturnTransactionToolStripMenuItem,
             this.cashPaidOutToolStripMenuItem,
-            this.trainingModeOnOffToolStripMenuItem,
-            this.goToStore2ToolStripMenuItem,
-            this.startBluetoothListenerToolStripMenuItem,
             this.backupDatabasesToolStripMenuItem});
             this.menu3ToolStripMenuItem.Name = "menu3ToolStripMenuItem";
-            this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.menu3ToolStripMenuItem.Text = "Action";
             // 
-            // optionToolStripMenuItem
+            // salesReturnTransactionToolStripMenuItem
             // 
-            this.optionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.authrozationToolStripMenuItem,
-            this.usersToolStripMenuItem1});
-            this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
-            this.optionToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
-            this.optionToolStripMenuItem.Text = "Option";
+            this.salesReturnTransactionToolStripMenuItem.Name = "salesReturnTransactionToolStripMenuItem";
+            this.salesReturnTransactionToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.salesReturnTransactionToolStripMenuItem.Text = "Sales Return Transaction";
             // 
-            // authrozationToolStripMenuItem
+            // cashPaidOutToolStripMenuItem
             // 
-            this.authrozationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rolesToolStripMenuItem});
-            this.authrozationToolStripMenuItem.Name = "authrozationToolStripMenuItem";
-            this.authrozationToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.authrozationToolStripMenuItem.Text = "Permission";
-            this.authrozationToolStripMenuItem.Click += new System.EventHandler(this.authrozationToolStripMenuItem_Click);
+            this.cashPaidOutToolStripMenuItem.Name = "cashPaidOutToolStripMenuItem";
+            this.cashPaidOutToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.cashPaidOutToolStripMenuItem.Text = "Cash Paid Out";
             // 
-            // rolesToolStripMenuItem
+            // backupDatabasesToolStripMenuItem
             // 
-            this.rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
-            this.rolesToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.rolesToolStripMenuItem.Text = "Roles";
+            this.backupDatabasesToolStripMenuItem.Name = "backupDatabasesToolStripMenuItem";
+            this.backupDatabasesToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.backupDatabasesToolStripMenuItem.Text = "Backup Databases";
             // 
-            // usersToolStripMenuItem1
+            // viewToolStripMenuItem
             // 
-            this.usersToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.manageUsersToolStripMenuItem});
-            this.usersToolStripMenuItem1.Name = "usersToolStripMenuItem1";
-            this.usersToolStripMenuItem1.Size = new System.Drawing.Size(181, 26);
-            this.usersToolStripMenuItem1.Text = "Users";
+            this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.drawerTotalsToolStripMenuItem,
+            this.productInformationToolStripMenuItem,
+            this.transactionNumberToolStripMenuItem});
+            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.viewToolStripMenuItem.Text = "View";
             // 
-            // manageUsersToolStripMenuItem
+            // drawerTotalsToolStripMenuItem
             // 
-            this.manageUsersToolStripMenuItem.Name = "manageUsersToolStripMenuItem";
-            this.manageUsersToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.manageUsersToolStripMenuItem.Text = "Manage Users";
-            this.manageUsersToolStripMenuItem.Click += new System.EventHandler(this.manageUsersToolStripMenuItem_Click);
+            this.drawerTotalsToolStripMenuItem.Name = "drawerTotalsToolStripMenuItem";
+            this.drawerTotalsToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.drawerTotalsToolStripMenuItem.Text = "Drawer Totals";
             // 
-            // lb
+            // productInformationToolStripMenuItem
             // 
-            this.lb.AutoSize = true;
-            this.lb.Location = new System.Drawing.Point(1141, 905);
-            this.lb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lb.Name = "lb";
-            this.lb.Size = new System.Drawing.Size(46, 17);
-            this.lb.TabIndex = 3;
-            this.lb.Text = "label1";
+            this.productInformationToolStripMenuItem.Name = "productInformationToolStripMenuItem";
+            this.productInformationToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.productInformationToolStripMenuItem.Text = "Product Information";
             // 
-            // label1
+            // transactionNumberToolStripMenuItem
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1237, 921);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.transactionNumberToolStripMenuItem.Name = "transactionNumberToolStripMenuItem";
+            this.transactionNumberToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.transactionNumberToolStripMenuItem.Text = "Transaction Number";
             // 
             // securityToolStripMenuItem
             // 
@@ -289,31 +329,77 @@
             this.managerOverRideToolStripMenuItem,
             this.showCurrentCashierToolStripMenuItem});
             this.securityToolStripMenuItem.Name = "securityToolStripMenuItem";
-            this.securityToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            this.securityToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.securityToolStripMenuItem.Text = "Security";
             // 
-            // preferencesToolStripMenuItem
+            // lockRegisterToolStripMenuItem
             // 
-            this.preferencesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.customerDisplayOnScreenToolStripMenuItem});
-            this.preferencesToolStripMenuItem.Name = "preferencesToolStripMenuItem";
-            this.preferencesToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
-            this.preferencesToolStripMenuItem.Text = "Preferences";
+            this.lockRegisterToolStripMenuItem.Name = "lockRegisterToolStripMenuItem";
+            this.lockRegisterToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.lockRegisterToolStripMenuItem.Text = "Lock Register";
             // 
-            // creditCardsToolStripMenuItem
+            // identifyCashierToolStripMenuItem
             // 
-            this.creditCardsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.freeCardProcessingSoftwareToolStripMenuItem,
-            this.changeCardVirtualTerminalToolStripMenuItem});
-            this.creditCardsToolStripMenuItem.Name = "creditCardsToolStripMenuItem";
-            this.creditCardsToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
-            this.creditCardsToolStripMenuItem.Text = "Credit Cards";
+            this.identifyCashierToolStripMenuItem.Name = "identifyCashierToolStripMenuItem";
+            this.identifyCashierToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.identifyCashierToolStripMenuItem.Text = "Identify Cashier";
             // 
-            // expressPlusInfoToolStripMenuItem
+            // switchCashiersToolStripMenuItem
             // 
-            this.expressPlusInfoToolStripMenuItem.Name = "expressPlusInfoToolStripMenuItem";
-            this.expressPlusInfoToolStripMenuItem.Size = new System.Drawing.Size(130, 24);
-            this.expressPlusInfoToolStripMenuItem.Text = "Express Plus Info";
+            this.switchCashiersToolStripMenuItem.Name = "switchCashiersToolStripMenuItem";
+            this.switchCashiersToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.switchCashiersToolStripMenuItem.Text = "Switch Cashiers";
+            // 
+            // managerOverRideToolStripMenuItem
+            // 
+            this.managerOverRideToolStripMenuItem.Name = "managerOverRideToolStripMenuItem";
+            this.managerOverRideToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.managerOverRideToolStripMenuItem.Text = "Manager OverRide";
+            // 
+            // showCurrentCashierToolStripMenuItem
+            // 
+            this.showCurrentCashierToolStripMenuItem.Name = "showCurrentCashierToolStripMenuItem";
+            this.showCurrentCashierToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.showCurrentCashierToolStripMenuItem.Text = "Show Current Cashier";
+            // 
+            // optionToolStripMenuItem
+            // 
+            this.optionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.authrozationToolStripMenuItem,
+            this.usersToolStripMenuItem1});
+            this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
+            this.optionToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.optionToolStripMenuItem.Text = "Option";
+            // 
+            // authrozationToolStripMenuItem
+            // 
+            this.authrozationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rolesToolStripMenuItem});
+            this.authrozationToolStripMenuItem.Name = "authrozationToolStripMenuItem";
+            this.authrozationToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.authrozationToolStripMenuItem.Text = "Permission";
+            this.authrozationToolStripMenuItem.Click += new System.EventHandler(this.authrozationToolStripMenuItem_Click);
+            // 
+            // rolesToolStripMenuItem
+            // 
+            this.rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
+            this.rolesToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.rolesToolStripMenuItem.Text = "Roles";
+            // 
+            // usersToolStripMenuItem1
+            // 
+            this.usersToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.manageUsersToolStripMenuItem});
+            this.usersToolStripMenuItem1.Name = "usersToolStripMenuItem1";
+            this.usersToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.usersToolStripMenuItem1.Text = "Users";
+            // 
+            // manageUsersToolStripMenuItem
+            // 
+            this.manageUsersToolStripMenuItem.Name = "manageUsersToolStripMenuItem";
+            this.manageUsersToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.manageUsersToolStripMenuItem.Text = "Manage Users";
+            this.manageUsersToolStripMenuItem.Click += new System.EventHandler(this.manageUsersToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -322,240 +408,44 @@
             this.unifyPaperWebSiteToolStripMenuItem,
             this.aboutUnifyPaperToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // selectReceiptPrinterToolStripMenuItem
-            // 
-            this.selectReceiptPrinterToolStripMenuItem.Name = "selectReceiptPrinterToolStripMenuItem";
-            this.selectReceiptPrinterToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.selectReceiptPrinterToolStripMenuItem.Text = "Select Receipt Printer";
-            // 
-            // selectReportPrinterToolStripMenuItem
-            // 
-            this.selectReportPrinterToolStripMenuItem.Name = "selectReportPrinterToolStripMenuItem";
-            this.selectReportPrinterToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.selectReportPrinterToolStripMenuItem.Text = "Select Report Printer";
-            // 
-            // reprintLastReceiptToolStripMenuItem
-            // 
-            this.reprintLastReceiptToolStripMenuItem.Name = "reprintLastReceiptToolStripMenuItem";
-            this.reprintLastReceiptToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.reprintLastReceiptToolStripMenuItem.Text = "Reprint Last Receipt";
-            // 
-            // printViewPastReceiptsToolStripMenuItem
-            // 
-            this.printViewPastReceiptsToolStripMenuItem.Name = "printViewPastReceiptsToolStripMenuItem";
-            this.printViewPastReceiptsToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.printViewPastReceiptsToolStripMenuItem.Text = "Print/View Past Receipts";
-            // 
-            // capturedSignaturesToolStripMenuItem
-            // 
-            this.capturedSignaturesToolStripMenuItem.Name = "capturedSignaturesToolStripMenuItem";
-            this.capturedSignaturesToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.capturedSignaturesToolStripMenuItem.Text = "Captured Signatures";
-            // 
-            // reprintLastChargeSlipToolStripMenuItem
-            // 
-            this.reprintLastChargeSlipToolStripMenuItem.Name = "reprintLastChargeSlipToolStripMenuItem";
-            this.reprintLastChargeSlipToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.reprintLastChargeSlipToolStripMenuItem.Text = "Reprint Last Charge Slip";
-            // 
-            // printAGiftReceiptToolStripMenuItem
-            // 
-            this.printAGiftReceiptToolStripMenuItem.Name = "printAGiftReceiptToolStripMenuItem";
-            this.printAGiftReceiptToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.printAGiftReceiptToolStripMenuItem.Text = "Print a Gift Receipt";
-            // 
-            // saveCurrentTransactionToolStripMenuItem
-            // 
-            this.saveCurrentTransactionToolStripMenuItem.Name = "saveCurrentTransactionToolStripMenuItem";
-            this.saveCurrentTransactionToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.saveCurrentTransactionToolStripMenuItem.Text = "Save Current Transaction";
-            // 
-            // openRemoteTransactionToolStripMenuItem
-            // 
-            this.openRemoteTransactionToolStripMenuItem.Name = "openRemoteTransactionToolStripMenuItem";
-            this.openRemoteTransactionToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.openRemoteTransactionToolStripMenuItem.Text = "Open Remote Transaction";
-            // 
-            // closeRegistersToolStripMenuItem
-            // 
-            this.closeRegistersToolStripMenuItem.Name = "closeRegistersToolStripMenuItem";
-            this.closeRegistersToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.closeRegistersToolStripMenuItem.Text = "Close Register(s)";
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.exitToolStripMenuItem.Text = "Exit";
-            // 
-            // cutToolStripMenuItem
-            // 
-            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
-            this.cutToolStripMenuItem.Text = "Cut";
-            // 
-            // copyToolStripMenuItem
-            // 
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
-            this.copyToolStripMenuItem.Text = "Copy";
-            // 
-            // pasteToolStripMenuItem
-            // 
-            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
-            this.pasteToolStripMenuItem.Text = "Paste";
-            // 
-            // deleteSelectedRowToolStripMenuItem
-            // 
-            this.deleteSelectedRowToolStripMenuItem.Name = "deleteSelectedRowToolStripMenuItem";
-            this.deleteSelectedRowToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
-            this.deleteSelectedRowToolStripMenuItem.Text = "Delete Selected Row";
-            // 
-            // deleteClearCurrentTransactionToolStripMenuItem
-            // 
-            this.deleteClearCurrentTransactionToolStripMenuItem.Name = "deleteClearCurrentTransactionToolStripMenuItem";
-            this.deleteClearCurrentTransactionToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
-            this.deleteClearCurrentTransactionToolStripMenuItem.Text = "Delete/Clear Current Transaction";
-            // 
-            // openCashDrawerToolStripMenuItem
-            // 
-            this.openCashDrawerToolStripMenuItem.Name = "openCashDrawerToolStripMenuItem";
-            this.openCashDrawerToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.openCashDrawerToolStripMenuItem.Text = "Open Cash Drawer";
-            // 
-            // salesReturnTransactionToolStripMenuItem
-            // 
-            this.salesReturnTransactionToolStripMenuItem.Name = "salesReturnTransactionToolStripMenuItem";
-            this.salesReturnTransactionToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.salesReturnTransactionToolStripMenuItem.Text = "Sales Return Transaction";
-            // 
-            // cashPaidOutToolStripMenuItem
-            // 
-            this.cashPaidOutToolStripMenuItem.Name = "cashPaidOutToolStripMenuItem";
-            this.cashPaidOutToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.cashPaidOutToolStripMenuItem.Text = "Cash Paid Out";
-            // 
-            // trainingModeOnOffToolStripMenuItem
-            // 
-            this.trainingModeOnOffToolStripMenuItem.Name = "trainingModeOnOffToolStripMenuItem";
-            this.trainingModeOnOffToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.trainingModeOnOffToolStripMenuItem.Text = "Training Mode On/Off";
-            // 
-            // goToStore2ToolStripMenuItem
-            // 
-            this.goToStore2ToolStripMenuItem.Name = "goToStore2ToolStripMenuItem";
-            this.goToStore2ToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.goToStore2ToolStripMenuItem.Text = "Go To Store #2";
-            // 
-            // startBluetoothListenerToolStripMenuItem
-            // 
-            this.startBluetoothListenerToolStripMenuItem.Name = "startBluetoothListenerToolStripMenuItem";
-            this.startBluetoothListenerToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.startBluetoothListenerToolStripMenuItem.Text = "Start Bluetooth Listener";
-            // 
-            // backupDatabasesToolStripMenuItem
-            // 
-            this.backupDatabasesToolStripMenuItem.Name = "backupDatabasesToolStripMenuItem";
-            this.backupDatabasesToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.backupDatabasesToolStripMenuItem.Text = "Backup Databases";
-            // 
-            // viewToolStripMenuItem
-            // 
-            this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.drawerTotalsToolStripMenuItem,
-            this.productInformationToolStripMenuItem,
-            this.transactionNumberToolStripMenuItem});
-            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
-            this.viewToolStripMenuItem.Text = "View";
-            // 
-            // drawerTotalsToolStripMenuItem
-            // 
-            this.drawerTotalsToolStripMenuItem.Name = "drawerTotalsToolStripMenuItem";
-            this.drawerTotalsToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
-            this.drawerTotalsToolStripMenuItem.Text = "Drawer Totals";
-            // 
-            // productInformationToolStripMenuItem
-            // 
-            this.productInformationToolStripMenuItem.Name = "productInformationToolStripMenuItem";
-            this.productInformationToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
-            this.productInformationToolStripMenuItem.Text = "Product Information";
-            // 
-            // transactionNumberToolStripMenuItem
-            // 
-            this.transactionNumberToolStripMenuItem.Name = "transactionNumberToolStripMenuItem";
-            this.transactionNumberToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
-            this.transactionNumberToolStripMenuItem.Text = "Transaction Number";
-            // 
-            // lockRegisterToolStripMenuItem
-            // 
-            this.lockRegisterToolStripMenuItem.Name = "lockRegisterToolStripMenuItem";
-            this.lockRegisterToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.lockRegisterToolStripMenuItem.Text = "Lock Register";
-            // 
-            // identifyCashierToolStripMenuItem
-            // 
-            this.identifyCashierToolStripMenuItem.Name = "identifyCashierToolStripMenuItem";
-            this.identifyCashierToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.identifyCashierToolStripMenuItem.Text = "Identify Cashier";
-            // 
-            // switchCashiersToolStripMenuItem
-            // 
-            this.switchCashiersToolStripMenuItem.Name = "switchCashiersToolStripMenuItem";
-            this.switchCashiersToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.switchCashiersToolStripMenuItem.Text = "Switch Cashiers";
-            // 
-            // managerOverRideToolStripMenuItem
-            // 
-            this.managerOverRideToolStripMenuItem.Name = "managerOverRideToolStripMenuItem";
-            this.managerOverRideToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.managerOverRideToolStripMenuItem.Text = "Manager OverRide";
-            // 
-            // showCurrentCashierToolStripMenuItem
-            // 
-            this.showCurrentCashierToolStripMenuItem.Name = "showCurrentCashierToolStripMenuItem";
-            this.showCurrentCashierToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.showCurrentCashierToolStripMenuItem.Text = "Show Current Cashier";
-            // 
-            // customerDisplayOnScreenToolStripMenuItem
-            // 
-            this.customerDisplayOnScreenToolStripMenuItem.Name = "customerDisplayOnScreenToolStripMenuItem";
-            this.customerDisplayOnScreenToolStripMenuItem.Size = new System.Drawing.Size(281, 26);
-            this.customerDisplayOnScreenToolStripMenuItem.Text = "Customer Display (On Screen)";
-            // 
-            // freeCardProcessingSoftwareToolStripMenuItem
-            // 
-            this.freeCardProcessingSoftwareToolStripMenuItem.Name = "freeCardProcessingSoftwareToolStripMenuItem";
-            this.freeCardProcessingSoftwareToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
-            this.freeCardProcessingSoftwareToolStripMenuItem.Text = "Free Card Processing Software";
-            // 
-            // changeCardVirtualTerminalToolStripMenuItem
-            // 
-            this.changeCardVirtualTerminalToolStripMenuItem.Name = "changeCardVirtualTerminalToolStripMenuItem";
-            this.changeCardVirtualTerminalToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
-            this.changeCardVirtualTerminalToolStripMenuItem.Text = "Change Card Virtual Terminal";
             // 
             // licenseAgreementToolStripMenuItem
             // 
             this.licenseAgreementToolStripMenuItem.Name = "licenseAgreementToolStripMenuItem";
-            this.licenseAgreementToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
+            this.licenseAgreementToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.licenseAgreementToolStripMenuItem.Text = "License Agreement";
             // 
             // unifyPaperWebSiteToolStripMenuItem
             // 
             this.unifyPaperWebSiteToolStripMenuItem.Name = "unifyPaperWebSiteToolStripMenuItem";
-            this.unifyPaperWebSiteToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
+            this.unifyPaperWebSiteToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.unifyPaperWebSiteToolStripMenuItem.Text = "Unify Paper Web Site";
             // 
             // aboutUnifyPaperToolStripMenuItem
             // 
             this.aboutUnifyPaperToolStripMenuItem.Name = "aboutUnifyPaperToolStripMenuItem";
-            this.aboutUnifyPaperToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
+            this.aboutUnifyPaperToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.aboutUnifyPaperToolStripMenuItem.Text = "About Unify Paper";
+            // 
+            // lb
+            // 
+            this.lb.AutoSize = true;
+            this.lb.Location = new System.Drawing.Point(856, 735);
+            this.lb.Name = "lb";
+            this.lb.Size = new System.Drawing.Size(35, 13);
+            this.lb.TabIndex = 3;
+            this.lb.Text = "label1";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(928, 748);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
             // 
             // linkLabel1
             // 
@@ -563,9 +453,10 @@
             this.linkLabel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.linkLabel1.ForeColor = System.Drawing.Color.Transparent;
             this.linkLabel1.LinkColor = System.Drawing.Color.Red;
-            this.linkLabel1.Location = new System.Drawing.Point(12, 7);
+            this.linkLabel1.Location = new System.Drawing.Point(9, 6);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(82, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(62, 13);
             this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Unify Paper";
@@ -574,8 +465,9 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Red;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2215, 70);
+            this.panel2.Size = new System.Drawing.Size(1661, 57);
             this.panel2.TabIndex = 6;
             // 
             // panel3
@@ -590,105 +482,127 @@
             this.panel3.Controls.Add(this.btnTransaction);
             this.panel3.Controls.Add(this.lbUnifyPaper);
             this.panel3.Controls.Add(this.btnCustomer);
-            this.panel3.Location = new System.Drawing.Point(5, 77);
+            this.panel3.Location = new System.Drawing.Point(4, 63);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(502, 1003);
+            this.panel3.Size = new System.Drawing.Size(376, 815);
             this.panel3.TabIndex = 7;
             // 
-            // btnCustomer
+            // btnScale
             // 
-            this.btnCustomer.BackColor = System.Drawing.Color.Red;
-            this.btnCustomer.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomer.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCustomer.Location = new System.Drawing.Point(3, 287);
-            this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Size = new System.Drawing.Size(494, 74);
-            this.btnCustomer.TabIndex = 0;
-            this.btnCustomer.Text = "Customer";
-            this.btnCustomer.UseVisualStyleBackColor = false;
-            // 
-            // lbUnifyPaper
-            // 
-            this.lbUnifyPaper.AutoSize = true;
-            this.lbUnifyPaper.Font = new System.Drawing.Font("CF Old School PERSONAL USE", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUnifyPaper.ForeColor = System.Drawing.Color.Red;
-            this.lbUnifyPaper.Location = new System.Drawing.Point(7, 75);
-            this.lbUnifyPaper.Name = "lbUnifyPaper";
-            this.lbUnifyPaper.Size = new System.Drawing.Size(450, 84);
-            this.lbUnifyPaper.TabIndex = 1;
-            this.lbUnifyPaper.Text = "Unify Paper";
-            // 
-            // btnTransaction
-            // 
-            this.btnTransaction.BackColor = System.Drawing.Color.Red;
-            this.btnTransaction.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransaction.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnTransaction.Location = new System.Drawing.Point(3, 368);
-            this.btnTransaction.Name = "btnTransaction";
-            this.btnTransaction.Size = new System.Drawing.Size(494, 74);
-            this.btnTransaction.TabIndex = 2;
-            this.btnTransaction.Text = "Transaction";
-            this.btnTransaction.UseVisualStyleBackColor = false;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.Color.Red;
-            this.btnDelete.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnDelete.Location = new System.Drawing.Point(3, 450);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(494, 74);
-            this.btnDelete.TabIndex = 3;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            // 
-            // btnReCall
-            // 
-            this.btnReCall.BackColor = System.Drawing.Color.Red;
-            this.btnReCall.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReCall.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnReCall.Location = new System.Drawing.Point(3, 530);
-            this.btnReCall.Name = "btnReCall";
-            this.btnReCall.Size = new System.Drawing.Size(494, 74);
-            this.btnReCall.TabIndex = 4;
-            this.btnReCall.Text = "ReCall";
-            this.btnReCall.UseVisualStyleBackColor = false;
-            // 
-            // btnProduct
-            // 
-            this.btnProduct.BackColor = System.Drawing.Color.Red;
-            this.btnProduct.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProduct.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnProduct.Location = new System.Drawing.Point(3, 609);
-            this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(494, 74);
-            this.btnProduct.TabIndex = 5;
-            this.btnProduct.Text = "Product";
-            this.btnProduct.UseVisualStyleBackColor = false;
-            // 
-            // btnTender
-            // 
-            this.btnTender.BackColor = System.Drawing.Color.Red;
-            this.btnTender.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTender.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnTender.Location = new System.Drawing.Point(3, 688);
-            this.btnTender.Name = "btnTender";
-            this.btnTender.Size = new System.Drawing.Size(494, 74);
-            this.btnTender.TabIndex = 6;
-            this.btnTender.Text = "Tender";
-            this.btnTender.UseVisualStyleBackColor = false;
+            this.btnScale.BackColor = System.Drawing.Color.Red;
+            this.btnScale.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScale.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnScale.Location = new System.Drawing.Point(2, 689);
+            this.btnScale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnScale.Name = "btnScale";
+            this.btnScale.Size = new System.Drawing.Size(370, 60);
+            this.btnScale.TabIndex = 8;
+            this.btnScale.Text = "Scale";
+            this.btnScale.UseVisualStyleBackColor = false;
             // 
             // btnLookUp
             // 
             this.btnLookUp.BackColor = System.Drawing.Color.Red;
             this.btnLookUp.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLookUp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLookUp.Location = new System.Drawing.Point(3, 768);
+            this.btnLookUp.Location = new System.Drawing.Point(2, 624);
+            this.btnLookUp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLookUp.Name = "btnLookUp";
-            this.btnLookUp.Size = new System.Drawing.Size(494, 74);
+            this.btnLookUp.Size = new System.Drawing.Size(370, 60);
             this.btnLookUp.TabIndex = 7;
             this.btnLookUp.Text = "Lookup";
             this.btnLookUp.UseVisualStyleBackColor = false;
+            // 
+            // btnTender
+            // 
+            this.btnTender.BackColor = System.Drawing.Color.Red;
+            this.btnTender.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTender.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTender.Location = new System.Drawing.Point(2, 559);
+            this.btnTender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTender.Name = "btnTender";
+            this.btnTender.Size = new System.Drawing.Size(370, 60);
+            this.btnTender.TabIndex = 6;
+            this.btnTender.Text = "Tender";
+            this.btnTender.UseVisualStyleBackColor = false;
+            // 
+            // btnProduct
+            // 
+            this.btnProduct.BackColor = System.Drawing.Color.Red;
+            this.btnProduct.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProduct.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnProduct.Location = new System.Drawing.Point(2, 495);
+            this.btnProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProduct.Name = "btnProduct";
+            this.btnProduct.Size = new System.Drawing.Size(370, 60);
+            this.btnProduct.TabIndex = 5;
+            this.btnProduct.Text = "Product";
+            this.btnProduct.UseVisualStyleBackColor = false;
+            // 
+            // btnReCall
+            // 
+            this.btnReCall.BackColor = System.Drawing.Color.Red;
+            this.btnReCall.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReCall.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReCall.Location = new System.Drawing.Point(2, 431);
+            this.btnReCall.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReCall.Name = "btnReCall";
+            this.btnReCall.Size = new System.Drawing.Size(370, 60);
+            this.btnReCall.TabIndex = 4;
+            this.btnReCall.Text = "ReCall";
+            this.btnReCall.UseVisualStyleBackColor = false;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.Red;
+            this.btnDelete.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDelete.Location = new System.Drawing.Point(2, 366);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(370, 60);
+            this.btnDelete.TabIndex = 3;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            // 
+            // btnTransaction
+            // 
+            this.btnTransaction.BackColor = System.Drawing.Color.Red;
+            this.btnTransaction.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransaction.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTransaction.Location = new System.Drawing.Point(2, 299);
+            this.btnTransaction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTransaction.Name = "btnTransaction";
+            this.btnTransaction.Size = new System.Drawing.Size(370, 60);
+            this.btnTransaction.TabIndex = 2;
+            this.btnTransaction.Text = "Transaction";
+            this.btnTransaction.UseVisualStyleBackColor = false;
+            // 
+            // lbUnifyPaper
+            // 
+            this.lbUnifyPaper.AutoSize = true;
+            this.lbUnifyPaper.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUnifyPaper.ForeColor = System.Drawing.Color.Red;
+            this.lbUnifyPaper.Location = new System.Drawing.Point(5, 61);
+            this.lbUnifyPaper.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbUnifyPaper.Name = "lbUnifyPaper";
+            this.lbUnifyPaper.Size = new System.Drawing.Size(331, 64);
+            this.lbUnifyPaper.TabIndex = 1;
+            this.lbUnifyPaper.Text = "Unify Paper";
+            // 
+            // btnCustomer
+            // 
+            this.btnCustomer.BackColor = System.Drawing.Color.Red;
+            this.btnCustomer.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomer.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCustomer.Location = new System.Drawing.Point(2, 233);
+            this.btnCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCustomer.Name = "btnCustomer";
+            this.btnCustomer.Size = new System.Drawing.Size(370, 60);
+            this.btnCustomer.TabIndex = 0;
+            this.btnCustomer.Text = "Customer";
+            this.btnCustomer.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
@@ -699,47 +613,31 @@
             this.panel4.Controls.Add(this.lbEnterScan);
             this.panel4.Controls.Add(this.lb);
             this.panel4.Controls.Add(this.label1);
-            this.panel4.Location = new System.Drawing.Point(514, 77);
+            this.panel4.Location = new System.Drawing.Point(386, 63);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1545, 1003);
+            this.panel4.Size = new System.Drawing.Size(1159, 815);
             this.panel4.TabIndex = 8;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
-            // btnScale
+            // lbTotal
             // 
-            this.btnScale.BackColor = System.Drawing.Color.Red;
-            this.btnScale.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScale.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnScale.Location = new System.Drawing.Point(3, 848);
-            this.btnScale.Name = "btnScale";
-            this.btnScale.Size = new System.Drawing.Size(494, 74);
-            this.btnScale.TabIndex = 8;
-            this.btnScale.Text = "Scale";
-            this.btnScale.UseVisualStyleBackColor = false;
-            // 
-            // lbEnterScan
-            // 
-            this.lbEnterScan.AutoSize = true;
-            this.lbEnterScan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEnterScan.Location = new System.Drawing.Point(38, 75);
-            this.lbEnterScan.Name = "lbEnterScan";
-            this.lbEnterScan.Size = new System.Drawing.Size(228, 20);
-            this.lbEnterScan.TabIndex = 5;
-            this.lbEnterScan.Text = "Enter/Scan Product Code:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(283, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(541, 22);
-            this.textBox1.TabIndex = 6;
+            this.lbTotal.AutoSize = true;
+            this.lbTotal.Location = new System.Drawing.Point(905, 495);
+            this.lbTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbTotal.Name = "lbTotal";
+            this.lbTotal.Size = new System.Drawing.Size(34, 13);
+            this.lbTotal.TabIndex = 8;
+            this.lbTotal.Text = "Total:";
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel5.Controls.Add(this.panel6);
-            this.panel5.Location = new System.Drawing.Point(19, 144);
+            this.panel5.Location = new System.Drawing.Point(14, 117);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1387, 444);
+            this.panel5.Size = new System.Drawing.Size(1040, 361);
             this.panel5.TabIndex = 7;
             // 
             // panel6
@@ -751,69 +649,85 @@
             this.panel6.Controls.Add(this.lbProductCode);
             this.panel6.Controls.Add(this.lbNo);
             this.panel6.Location = new System.Drawing.Point(2, 1);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1385, 67);
+            this.panel6.Size = new System.Drawing.Size(1039, 54);
             this.panel6.TabIndex = 0;
-            // 
-            // lbNo
-            // 
-            this.lbNo.AutoSize = true;
-            this.lbNo.Location = new System.Drawing.Point(21, 24);
-            this.lbNo.Name = "lbNo";
-            this.lbNo.Size = new System.Drawing.Size(30, 17);
-            this.lbNo.TabIndex = 0;
-            this.lbNo.Text = "No.";
-            // 
-            // lbProductCode
-            // 
-            this.lbProductCode.AutoSize = true;
-            this.lbProductCode.Location = new System.Drawing.Point(155, 24);
-            this.lbProductCode.Name = "lbProductCode";
-            this.lbProductCode.Size = new System.Drawing.Size(94, 17);
-            this.lbProductCode.TabIndex = 1;
-            this.lbProductCode.Text = "Product Code";
-            // 
-            // lbDescription
-            // 
-            this.lbDescription.AutoSize = true;
-            this.lbDescription.Location = new System.Drawing.Point(414, 24);
-            this.lbDescription.Name = "lbDescription";
-            this.lbDescription.Size = new System.Drawing.Size(79, 17);
-            this.lbDescription.TabIndex = 2;
-            this.lbDescription.Text = "Description";
-            // 
-            // lbQuantity
-            // 
-            this.lbQuantity.AutoSize = true;
-            this.lbQuantity.Location = new System.Drawing.Point(1003, 24);
-            this.lbQuantity.Name = "lbQuantity";
-            this.lbQuantity.Size = new System.Drawing.Size(61, 17);
-            this.lbQuantity.TabIndex = 3;
-            this.lbQuantity.Text = "Quantity";
             // 
             // lbPrice
             // 
             this.lbPrice.AutoSize = true;
-            this.lbPrice.Location = new System.Drawing.Point(1215, 24);
+            this.lbPrice.Location = new System.Drawing.Point(911, 20);
+            this.lbPrice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbPrice.Name = "lbPrice";
-            this.lbPrice.Size = new System.Drawing.Size(40, 17);
+            this.lbPrice.Size = new System.Drawing.Size(31, 13);
             this.lbPrice.TabIndex = 4;
             this.lbPrice.Text = "Price";
             // 
-            // lbTotal
+            // lbQuantity
             // 
-            this.lbTotal.AutoSize = true;
-            this.lbTotal.Location = new System.Drawing.Point(1207, 609);
-            this.lbTotal.Name = "lbTotal";
-            this.lbTotal.Size = new System.Drawing.Size(44, 17);
-            this.lbTotal.TabIndex = 8;
-            this.lbTotal.Text = "Total:";
+            this.lbQuantity.AutoSize = true;
+            this.lbQuantity.Location = new System.Drawing.Point(752, 20);
+            this.lbQuantity.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbQuantity.Name = "lbQuantity";
+            this.lbQuantity.Size = new System.Drawing.Size(46, 13);
+            this.lbQuantity.TabIndex = 3;
+            this.lbQuantity.Text = "Quantity";
+            // 
+            // lbDescription
+            // 
+            this.lbDescription.AutoSize = true;
+            this.lbDescription.Location = new System.Drawing.Point(310, 20);
+            this.lbDescription.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbDescription.Name = "lbDescription";
+            this.lbDescription.Size = new System.Drawing.Size(60, 13);
+            this.lbDescription.TabIndex = 2;
+            this.lbDescription.Text = "Description";
+            // 
+            // lbProductCode
+            // 
+            this.lbProductCode.AutoSize = true;
+            this.lbProductCode.Location = new System.Drawing.Point(116, 20);
+            this.lbProductCode.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbProductCode.Name = "lbProductCode";
+            this.lbProductCode.Size = new System.Drawing.Size(72, 13);
+            this.lbProductCode.TabIndex = 1;
+            this.lbProductCode.Text = "Product Code";
+            // 
+            // lbNo
+            // 
+            this.lbNo.AutoSize = true;
+            this.lbNo.Location = new System.Drawing.Point(16, 20);
+            this.lbNo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbNo.Name = "lbNo";
+            this.lbNo.Size = new System.Drawing.Size(24, 13);
+            this.lbNo.TabIndex = 0;
+            this.lbNo.Text = "No.";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(212, 61);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(407, 20);
+            this.textBox1.TabIndex = 6;
+            // 
+            // lbEnterScan
+            // 
+            this.lbEnterScan.AutoSize = true;
+            this.lbEnterScan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbEnterScan.Location = new System.Drawing.Point(28, 61);
+            this.lbEnterScan.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbEnterScan.Name = "lbEnterScan";
+            this.lbEnterScan.Size = new System.Drawing.Size(196, 17);
+            this.lbEnterScan.TabIndex = 5;
+            this.lbEnterScan.Text = "Enter/Scan Product Code:";
             // 
             // frmMainpage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1932, 1092);
+            this.ClientSize = new System.Drawing.Size(1034, 634);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.bunifuImageButton1);
@@ -824,7 +738,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMainpage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -867,9 +780,6 @@
         private System.Windows.Forms.ToolStripMenuItem printViewPastReceiptsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem capturedSignaturesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reprintLastChargeSlipToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem printAGiftReceiptToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saveCurrentTransactionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem openRemoteTransactionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem closeRegistersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cutToolStripMenuItem;
@@ -877,12 +787,8 @@
         private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteSelectedRowToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteClearCurrentTransactionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem openCashDrawerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salesReturnTransactionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cashPaidOutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem trainingModeOnOffToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem goToStore2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem startBluetoothListenerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem backupDatabasesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem drawerTotalsToolStripMenuItem;
@@ -894,12 +800,6 @@
         private System.Windows.Forms.ToolStripMenuItem switchCashiersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem managerOverRideToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem showCurrentCashierToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem preferencesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem customerDisplayOnScreenToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem creditCardsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem freeCardProcessingSoftwareToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem changeCardVirtualTerminalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem expressPlusInfoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem licenseAgreementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem unifyPaperWebSiteToolStripMenuItem;

@@ -43,10 +43,15 @@ namespace UnifyPaper
                 Classes.entities.users u = new Classes.entities.users();
                 u.username = tbUsername.text.ToString().Trim();
                 u.password = tbPassword.text.ToString().Trim();
-                if (db.checkLogin(u))
+                u = db.checkLogin(u);
+                if (u != null)
                 {
+                    
+                    Classes.session.userSession.UID = u.UID.ToString();
                     Classes.session.userSession.username = tbUsername.text.ToString();
                     Classes.session.userSession.password = tbPassword.text.ToString();
+                    Classes.session.userSession.userlevel = u.user_level.ToString();
+                    MessageBox.Show(Classes.session.userSession.userlevel);
                     form.pages.frmMainpage frm = new form.pages.frmMainpage();
                     this.Hide();
                     frm.ShowDialog();
