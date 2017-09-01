@@ -37,6 +37,7 @@
             this.btnLogin = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnLog = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.lbUnifyPaper = new System.Windows.Forms.Label();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             this.SuspendLayout();
@@ -52,7 +53,7 @@
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.White;
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Red;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(1420, 34);
@@ -65,7 +66,7 @@
             this.btnClose.ImageActive = null;
             this.btnClose.InitialImage = ((System.Drawing.Image)(resources.GetObject("btnClose.InitialImage")));
             this.btnClose.Location = new System.Drawing.Point(1375, 0);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(45, 34);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -82,7 +83,7 @@
             this.tbUsername.ForeColor = System.Drawing.Color.SeaShell;
             this.tbUsername.Icon = ((System.Drawing.Image)(resources.GetObject("tbUsername.Icon")));
             this.tbUsername.Location = new System.Drawing.Point(1032, 119);
-            this.tbUsername.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tbUsername.Margin = new System.Windows.Forms.Padding(5);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(333, 52);
             this.tbUsername.TabIndex = 1;
@@ -97,7 +98,7 @@
             this.tbPassword.ForeColor = System.Drawing.Color.SeaShell;
             this.tbPassword.Icon = ((System.Drawing.Image)(resources.GetObject("tbPassword.Icon")));
             this.tbPassword.Location = new System.Drawing.Point(1032, 194);
-            this.tbPassword.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tbPassword.Margin = new System.Windows.Forms.Padding(5);
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.Size = new System.Drawing.Size(333, 52);
             this.tbPassword.TabIndex = 2;
@@ -160,7 +161,7 @@
             this.btnLog.IconZoom = 50D;
             this.btnLog.IsTab = false;
             this.btnLog.Location = new System.Drawing.Point(1032, 288);
-            this.btnLog.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnLog.Margin = new System.Windows.Forms.Padding(5);
             this.btnLog.Name = "btnLog";
             this.btnLog.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.btnLog.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
@@ -180,12 +181,25 @@
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this;
             // 
+            // lbUnifyPaper
+            // 
+            this.lbUnifyPaper.AutoSize = true;
+            this.lbUnifyPaper.BackColor = System.Drawing.Color.Transparent;
+            this.lbUnifyPaper.Font = new System.Drawing.Font("CF Old School PERSONAL USE", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUnifyPaper.ForeColor = System.Drawing.Color.White;
+            this.lbUnifyPaper.Location = new System.Drawing.Point(105, 140);
+            this.lbUnifyPaper.Name = "lbUnifyPaper";
+            this.lbUnifyPaper.Size = new System.Drawing.Size(764, 144);
+            this.lbUnifyPaper.TabIndex = 5;
+            this.lbUnifyPaper.Text = "Unify Paper";
+            // 
             // frmMainpage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UnifyPaper.Properties.Resources.UP1;
             this.ClientSize = new System.Drawing.Size(1420, 452);
+            this.Controls.Add(this.lbUnifyPaper);
             this.Controls.Add(this.btnLog);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.tbPassword);
@@ -193,13 +207,14 @@
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMainpage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.bunifuGradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -212,6 +227,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnLogin;
         private Bunifu.Framework.UI.BunifuFlatButton btnLog;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Label lbUnifyPaper;
     }
 }
 

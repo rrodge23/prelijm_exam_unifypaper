@@ -83,6 +83,10 @@
             this.licenseAgreementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unifyPaperWebSiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUnifyPaperToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mainTransactionPagesFormsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lb = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
@@ -110,10 +114,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lbEnterScan = new System.Windows.Forms.Label();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mainTransactionPagesFormsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.userManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -128,7 +128,7 @@
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip2.Size = new System.Drawing.Size(1932, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(1932, 28);
             this.menuStrip2.TabIndex = 2;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -136,7 +136,7 @@
             // 
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 24);
+            this.panel1.Location = new System.Drawing.Point(0, 28);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1932, 32);
@@ -472,7 +472,7 @@
             this.authrozationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.rolesToolStripMenuItem});
             this.authrozationToolStripMenuItem.Name = "authrozationToolStripMenuItem";
-            this.authrozationToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.authrozationToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
             this.authrozationToolStripMenuItem.Text = "Permission";
             this.authrozationToolStripMenuItem.Click += new System.EventHandler(this.authrozationToolStripMenuItem_Click);
             // 
@@ -487,7 +487,7 @@
             this.usersToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.manageUsersToolStripMenuItem});
             this.usersToolStripMenuItem1.Name = "usersToolStripMenuItem1";
-            this.usersToolStripMenuItem1.Size = new System.Drawing.Size(181, 26);
+            this.usersToolStripMenuItem1.Size = new System.Drawing.Size(154, 26);
             this.usersToolStripMenuItem1.Text = "Users";
             // 
             // manageUsersToolStripMenuItem
@@ -524,6 +524,35 @@
             this.aboutUnifyPaperToolStripMenuItem.Name = "aboutUnifyPaperToolStripMenuItem";
             this.aboutUnifyPaperToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.aboutUnifyPaperToolStripMenuItem.Text = "About Unify Paper";
+            // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem1,
+            this.mainTransactionPagesFormsToolStripMenuItem,
+            this.userManagementToolStripMenuItem});
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
+            this.settingsToolStripMenuItem.Text = "Settings";
+            // 
+            // menuToolStripMenuItem1
+            // 
+            this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(284, 26);
+            this.menuToolStripMenuItem1.Text = "Menu";
+            // 
+            // mainTransactionPagesFormsToolStripMenuItem
+            // 
+            this.mainTransactionPagesFormsToolStripMenuItem.Name = "mainTransactionPagesFormsToolStripMenuItem";
+            this.mainTransactionPagesFormsToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.mainTransactionPagesFormsToolStripMenuItem.Text = "Main Transaction Pages/Forms";
+            // 
+            // userManagementToolStripMenuItem
+            // 
+            this.userManagementToolStripMenuItem.Name = "userManagementToolStripMenuItem";
+            this.userManagementToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.userManagementToolStripMenuItem.Text = "User Management";
+            this.userManagementToolStripMenuItem.Click += new System.EventHandler(this.userManagementToolStripMenuItem_Click);
             // 
             // lb
             // 
@@ -827,34 +856,6 @@
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
-            // 
-            // settingsToolStripMenuItem
-            // 
-            this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem1,
-            this.mainTransactionPagesFormsToolStripMenuItem,
-            this.userManagementToolStripMenuItem});
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
-            this.settingsToolStripMenuItem.Text = "Settings";
-            // 
-            // menuToolStripMenuItem1
-            // 
-            this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
-            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(284, 26);
-            this.menuToolStripMenuItem1.Text = "Menu";
-            // 
-            // mainTransactionPagesFormsToolStripMenuItem
-            // 
-            this.mainTransactionPagesFormsToolStripMenuItem.Name = "mainTransactionPagesFormsToolStripMenuItem";
-            this.mainTransactionPagesFormsToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
-            this.mainTransactionPagesFormsToolStripMenuItem.Text = "Main Transaction Pages/Forms";
-            // 
-            // userManagementToolStripMenuItem
-            // 
-            this.userManagementToolStripMenuItem.Name = "userManagementToolStripMenuItem";
-            this.userManagementToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
-            this.userManagementToolStripMenuItem.Text = "User Management";
             // 
             // frmMainpage
             // 

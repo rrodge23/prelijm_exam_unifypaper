@@ -57,8 +57,8 @@ namespace UnifyPaper.form.pages
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            frmDelete fd = new frmDelete();
-            fd.ShowDialog();
+            //frmDelete fd = new frmDelete();
+            //fd.ShowDialog();
         }
 
         private void btnReCall_Click(object sender, EventArgs e)
@@ -71,6 +71,12 @@ namespace UnifyPaper.form.pages
         {
             frmLookup fl = new frmLookup();
             fl.ShowDialog();
+        }
+
+        private void userManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmUserManagement fam = new frmUserManagement();
+            fam.ShowDialog();
         }
     }
 }

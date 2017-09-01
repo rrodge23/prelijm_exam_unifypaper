@@ -16,5 +16,17 @@ namespace UnifyPaper.form.pages
         {
             InitializeComponent();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            frmAddUser fa = new frmAddUser();
+            fa.ShowDialog();
+        }
+
+        private void btnUpdatePassword_Click(object sender, EventArgs e)
+        {
+            frmUpdatePassword fup = new frmUpdatePassword();
+            fup.ShowDialog();
+        }
     }
 }
